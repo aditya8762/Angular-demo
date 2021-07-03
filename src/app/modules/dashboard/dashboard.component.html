@@ -1,0 +1,86 @@
+<div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px" class="stats-card">
+    <nb-card size="tiny" class="solarcard">
+        <nb-card-header>Total Applications</nb-card-header>
+        <nb-card-body class="body">
+            <div class="echart">
+                <app-widget-piegrid></app-widget-piegrid>
+            </div>
+          <div class="info">
+            <div class="h4 value">6421</div>
+            <div class="details"><span>+</span> 8.421 %</div>
+          </div>
+        </nb-card-body>
+      </nb-card>
+      <nb-card size="tiny" class="solarcard">
+        <nb-card-header>ShortListed</nb-card-header>
+        <nb-card-body class="body">
+            <div class="echart">
+                <app-widget-piegrid2></app-widget-piegrid2>
+            </div>
+          <div class="info">
+            <div class="h4 value">3421 </div>
+            <div class="details"><span>out of</span> 6421 </div>
+          </div>
+        </nb-card-body>
+      </nb-card>
+      <nb-card size="tiny" class="solarcard">
+        <nb-card-header>Selected</nb-card-header>
+        <nb-card-body class="body">
+            <div class="echart">
+                <app-widget-piegrid3></app-widget-piegrid3>
+            </div>
+          <div class="info">
+            <div class="h4 value">2421</div>
+            <div class="details"><span>out of</span> 3421 </div>
+          </div>
+        </nb-card-body>
+      </nb-card>
+</div>
+<div fxLayout="row" fxLayoutAlign="space-between" fxLayoutGap="10px" class="card">
+  <nb-card-body class="area">
+    <app-widget-area></app-widget-area>
+  </nb-card-body>
+  <nb-card-body>
+    <app-widget-progressbar></app-widget-progressbar>
+  </nb-card-body>
+</div>
+<div fxLayout="row" fxLayoutAlign="space-between" fxLayoutGap="10px" class="card1">
+  <nb-card-body>
+     <div fxFlex="row" fxLayoutAlign="space-between" fxLayoutGap="10px">
+      <nb-card accent="info">
+        <nb-card-header>User's</nb-card-header>
+        <nb-card-body>
+          <h5>2232</h5>
+          <h6>+67%</h6>
+        </nb-card-body>
+      </nb-card>
+      <nb-card accent="info">
+        <nb-card-header>Referals</nb-card-header>
+        <nb-card-body>
+          <h5>2232</h5>
+          <h6>+67%</h6>
+        </nb-card-body>
+      </nb-card>
+      <nb-card accent="info">
+        <nb-card-header>Applications</nb-card-header>
+        <nb-card-body>
+          <h5>2232</h5>
+          <h6>+67%</h6>
+        </nb-card-body>
+      </nb-card> 
+      <nb-card accent="info">
+        <nb-card-header>Shares</nb-card-header>
+        <nb-card-body>
+          <h5>2232</h5>
+          <h6>+67%</h6>
+        </nb-card-body>
+      </nb-card>
+      <!-- <app-numbercard></app-numbercard> -->
+       <!-- <app-numbercard></app-numbercard> -->
+       <!-- <app-numbercard></app-numbercard> -->
+     </div>
+  </nb-card-body>
+  <nb-card-body>
+    <app-widget-donut></app-widget-donut>
+  </nb-card-body>
+</div>
